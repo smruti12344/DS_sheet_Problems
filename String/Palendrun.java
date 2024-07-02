@@ -7,7 +7,7 @@ public class Palendrun {
         // Initialize pointers
         int left = 0;
         int right = s.length() - 1;
-
+         s = s.toLowerCase();
         while (left < right) {
             // Move the left pointer to the next alphanumeric character
             while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
@@ -20,7 +20,8 @@ public class Palendrun {
             }
 
             // Compare the characters at the left and right pointers
-            if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
+            // if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
+                if(s.charAt(left) != s.charAt(right)){
                 return false;
             }
 
