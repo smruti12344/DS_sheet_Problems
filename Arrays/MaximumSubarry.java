@@ -2,7 +2,7 @@
 package Arrays;
 public class MaximumSubarry {
     public int maxiSum(int arr[]){
-        //kadian's algo
+        //kadane's algo
         int maxSum = 0;
         int currSum = 0;
         for (int i = 0; i < arr.length; i++) {
