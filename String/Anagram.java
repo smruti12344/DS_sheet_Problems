@@ -3,9 +3,7 @@ package String;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Anagram
- */
+//Anagram is when String s == String t in any order
 public class Anagram {
     public boolean isAnagram(String s, String t) {
         Map<Character, Integer> map = new HashMap<>();
