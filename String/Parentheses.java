@@ -1,6 +1,5 @@
+package String;
 import java.util.Stack;
-
-
 public class Parentheses {
     public boolean isValid(String s) {
         //step-1: Define a stack who hold the string
