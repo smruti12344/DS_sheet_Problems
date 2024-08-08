@@ -31,6 +31,9 @@ public class MinimumInRottedSortedArray {
     public static void main(String[] args) {
     int arr[] = {3,4,5,1,2};
     System.out.println(new MinimumInRottedSortedArray().findMin(arr));
+    int a=10;
+    int b = ++a+a+++--a;
+    System.out.println("b:"+b);
 }
     
 }
